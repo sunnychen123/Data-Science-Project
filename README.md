@@ -1,44 +1,39 @@
-## Welcome to GitHub Pages
+# Table of Contents
+1. Installation
+2. Project Motivation
+3. File Description
+4. Results
+5. Acknowledgements
 
-You can use the [editor on GitHub](https://github.com/sunnychen123/Data-Science-Project/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Installation
+>. Pands (for data loading and analysis). Numpy (for computing)
+>. Matplotlib (for visualization)
+>. Seaborn (for visualization)
+>. scikit-learn (for machine learning)
+>. NLTK (Natural Language Toolkit for analysis of descriptions and reviews)
+>. Jupyter (to run notebooks)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Project Motivation
+This project is my first data mining project for Udacity Data Scientist Nanodegree Program.
+For all prospective Airbnb hosts in Seattle, I was interested in the following questions
+1. When are typically listings available?
+2. What is the distribution of the listing price?
+3. Can we predict the price of a new listing based on some of its attributes?
+4. What factors make the most difference in terms of pricing?
+5. What’s the review score for each listing?
 
-### Markdown
+# File Descriptions
+There are three files in the dataset, which was downloaded from [Kaggle](https://www.kaggle.com/airbnb/seattle)
+listings.csv - includes full descriptions and average review score
+calendar.csv - includes listing id and the price and availability for that day
+reviews.csv - includes unique id for each reviewer and detailed comments We'll be using all three files individually for analysis.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The main analysis and data exploration can be found [here](https://github.com/sunnychen123/Data-Science-Project/blob/main/Seattle_Airbnb_Data.ipynb)
 
-```markdown
-Syntax highlighted code block
+# Results
+The whole article can be found through a Medium post publicly available through [here](https://yaqingchen5.medium.com/airbnb-in-seattle-data-analysis-2f50eb57934b)
 
-# Header 1
-## Header 2
-### Header 3
+# Acknowledgements
+I'm grateful to Udacity for enabling me to write my first blog post. Thanks to Kaggle for providing free datasets, also thanks to Medium for being an great source of data analysis insights.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sunnychen123/Data-Science-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-# Table of Contentd
-## 1.Installation
-## 2.Project Motivation
-## 3.File Description
-## 4.Results
-## 5.Acknowledgements
