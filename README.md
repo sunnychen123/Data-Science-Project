@@ -8,7 +8,7 @@
 5. Acknowledgements
 
 # Installation
-- Pands (for data loading and analysis). Numpy (for computing)<br>
+- Pandas (for data loading and analysis). Numpy (for computing)<br>
 - Matplotlib (for visualization)<br>
 - Seaborn (for visualization)<br>
 - Scikit-learn (for machine learning)<br>
